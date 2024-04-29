@@ -15,6 +15,7 @@ export function BlogPosts() {
           }
           return 1
         })
+        
         .map((post) => (
           <Link
             key={post.slug}
