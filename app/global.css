@@ -145,6 +145,19 @@ table {
   white-space: nowrap;
 }
 
+.blog-card {
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 15px;
+  background-color: #272822;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
 .title {
   text-wrap: balance;
 }

@@ -1,0 +1,4 @@
+title: Wally
+image: wally.png
+description: Dynamically typed programming language featuring modern programming patterns such as OOP.
+link: https://github.com/Cuber01/Wally
