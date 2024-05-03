@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { formatDate, getBlogPosts } from 'app/blog/utils'
-import { useState } from 'react';
 
 function BlogCard(post) {
   return (
