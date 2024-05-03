@@ -72,11 +72,13 @@ table {
   margin-bottom: 0.25em;
   transition: background-position 0.65s ease-in,
               margin-left 0.1s ease-out;
+              padding: 0.3s ease-out;
 }
 
 .project-container:hover {
   background-position: center, left bottom, center;
   margin-left: 1em;
+  padding: 0.5em 1em 0.5em 0.5em;
 }
 
 .project-container h3 {
@@ -86,6 +88,10 @@ table {
 	border-radius: 0.3em;
   font-size: 1.25em;
   color: white;
+}
+
+.project-container p {
+  padding: 0.25em;
 }
 
 .title {

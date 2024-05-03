@@ -1,5 +1,9 @@
 import { Projects } from 'app/components/projects'
 
+export const metadata = {
+  title: 'Projects'
+}
+
 export default function Page() {
     return (
       <section>

@@ -15,9 +15,6 @@ export default function Page() {
         I have many interests including game and language design, writing, tabletop RPGs,
          history and everything tech. `}
       </p>
-      <div className="my-8">
-        <Projects />
-      </div>
     </section>
   )
 }

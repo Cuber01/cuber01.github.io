@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { getProjectData } from 'app/blog/utils'
+import { getProjectData } from 'app/blog/utils'  
 
 function ProjectDisplay(data)
 {
