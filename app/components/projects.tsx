@@ -7,16 +7,17 @@ function ProjectDisplay(data)
 {
     return (
     <Link href={data.metadata.link}>
-        <div className="blog-card" key={data.slug}>
+        <div className="project-card" key={data.slug}>
                 <Image 
                     alt={data.metadata.title} 
                     src={'/' + data.metadata.image}
-                    width={100}
-                    height={100}
+                    width={800}
+                    height={800}
+                    className='project-img'
                 />
-                <p>{data.metadata.title}</p>
+                <p className='pl-4 pt-2 pb-1'>{data.metadata.title}</p>
                 <small>
-                 <p>{data.metadata.description}</p>
+                 <p className='pl-4 pb-3'>{data.metadata.description}</p>
                 </small>
         </div>
     </Link>
