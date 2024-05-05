@@ -82,7 +82,6 @@ table {
 .project-container:hover {
   background-position: center, left bottom, center;
   margin-left: 1em;
-  padding: 0.5em 1em 0.5em 0.5em;
 }
 
 .project-container h3 {
