@@ -1,13 +1,6 @@
-
 .universe{
     position: absolute;
-    
-    top: 50%;
-    left: 50%;
-}
-  
-.svg_shape {
-    z-index: 11;
+    top: 25%
 }
 
 .anim-reverse {
@@ -15,8 +8,6 @@
 }
 
 .orbital-ring-group {
-    position: relative;
-  
     animation-name: rotate; 
     animation-duration: 13s;
     animation-iteration-count: infinite;
@@ -34,8 +25,3 @@
     stroke-width: 1;
     fill: rgb(0,0,0,0)
 }
-
-#universe_id3 {
-    z-index: -1;
-}
-

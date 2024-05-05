@@ -1,8 +1,11 @@
 import { Universe } from 'app/components/universe'
+import './components/universe.css'
 
 export default function Page() {
   return (
-      <Universe />
+      <div id="home-page">
+        <Universe />
+      </div>
     // <section>
     //   <h1 className="text-2xl font-semibold tracking-tighter">
     //     Jan Englert 

@@ -5,6 +5,18 @@
   color: #fefefe;
 }
 
+@media (max-width: 600px) {
+  .element-to-hide {
+    display: none;
+  }
+}
+
+@media (max-height: 1000px) {
+  .element-to-hide {
+    display: none;
+  }
+}
+
 html {
   min-width: 360px;
 }
@@ -95,4 +107,8 @@ table {
 
 .project-container p {
   padding: 0.25em;
+}
+
+#home-page {
+  overflow: hidden;
 }
