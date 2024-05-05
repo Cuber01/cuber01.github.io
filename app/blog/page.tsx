@@ -1,4 +1,6 @@
 import { BlogPosts } from 'app/components/posts'
+import { useEffect } from 'react';
+
 
 export const metadata = {
   title: 'Blog'
