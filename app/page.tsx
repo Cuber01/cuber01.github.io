@@ -1,9 +1,10 @@
-import { Universe } from 'app/components/universe'
-import './components/universe.css'
+import { StarsBackground, Universe } from 'app/components/space'
+import './components/space.css'
 
 export default function Page() {
   return (
       <div id="home-page">
+        <StarsBackground />
         <Universe />
       </div>
     // <section>

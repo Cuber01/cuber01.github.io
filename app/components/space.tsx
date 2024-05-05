@@ -1,8 +1,19 @@
-import './universe.css'
+import './space.css'
+
+export function StarsBackground() {
+   return (
+      <div className='bg-animation'>
+         <div id='stars-1px'></div>
+         <div id='stars-2px'></div>
+         <div id='stars-3px'></div>
+      </div>
+   )
+}
 
 export function Universe() {
    return (
       <div>
+
          <div className="universe scale-[0.7] rotate-45">
             <svg className='orbital-ring-group' height="500" width="500">
                <circle className='ring' cx="250" cy="250" r="225" />
