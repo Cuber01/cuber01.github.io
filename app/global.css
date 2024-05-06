@@ -19,12 +19,16 @@
 
 html {
   min-width: 360px;
+  font-family: 'Oxygen';
 
   /* Hide scrollbar */
   overflow: scroll;
   overflow-x: hidden;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+
+  /* background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(30,31,32,1) 50%, rgba(0,0,0,1) 100%); */
 }
 
 ::-webkit-scrollbar {
@@ -63,53 +67,52 @@ table {
   transform: scale(1.05);
 }
 
-.project-container {
-  --main-color: #6abe30;
-  --hover-clr: #37946e;
-  --degree: 60deg;
-
-  background: 
-  linear-gradient(
-    var(--degree),
-    rgb(0,0,0,0) 0 97%,
-    black calc(97% + 1px) 100%
-  ),
-  linear-gradient(to right, var(--hover-clr) 50%, rgb(0,0,0,0)  50%),  
-  linear-gradient(
-    var(--degree),
-    var(--main-color) 0 97%,
-    black calc(97% + 1px) 100%
-  );
-
-  background-size: 100%, 200% 100%, 100%;
-  background-position: center, right bottom, center;
-
-  width: 100%;
-  padding: 1em 1em 1em 0.5em;
-  margin-bottom: 0.25em;
-  transition: background-position 0.65s ease-in,
-              margin-left 0.1s ease-out;
-              padding: 0.3s ease-out;
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/poppins-v21-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('./fonts/poppins-v21-latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
-.project-container:hover {
-  background-position: center, left bottom, center;
-  margin-left: 1em;
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/poppins-v21-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('./fonts/poppins-v21-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
-.project-container h3 {
-	background-color: black;
-	display: inline;
-	padding: 0.25em;
-	border-radius: 0.3em;
-  font-size: 1.25em;
-  color: white;
+/* oxygen-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/oxygen-v15-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('./fonts/oxygen-v15-latin-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
-.project-container p {
-  padding: 0.25em;
+/* oxygen-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/oxygen-v15-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('./fonts/oxygen-v15-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
-#home-page {
-  overflow: hidden;
+/* oxygen-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/oxygen-v15-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('./fonts/oxygen-v15-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }

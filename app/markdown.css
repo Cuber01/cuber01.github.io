@@ -80,18 +80,22 @@
   }
   
   .prose h1 {
+    font-family: 'Poppins';
     @apply text-4xl font-medium tracking-tight mt-6 mb-2;
   }
   
   .prose h2 {
+    font-family: 'Poppins';
     @apply text-xl font-medium tracking-tight mt-6 mb-2;
   }
   
   .prose h3 {
+    font-family: 'Poppins';
     @apply text-xl font-medium tracking-tight mt-6 mb-2;
   }
   
   .prose h4 {
+    font-family: 'Poppins';
     @apply text-lg font-medium tracking-tight mt-6 mb-2;
   }
   

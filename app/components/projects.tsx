@@ -7,8 +7,8 @@ function ProjectDisplay(data)
     return (
     <Link href={data.metadata.link}>
         <li className="project-container" key={data.slug}>
-                <h3>{data.metadata.title}</h3>
-                <p>{data.metadata.description}</p>
+                <h3 className='font-[Poppins]' >{data.metadata.title}</h3>
+                <p className='font-[Poppins]'>{data.metadata.description}</p>
         </li>
     </Link>
     )
