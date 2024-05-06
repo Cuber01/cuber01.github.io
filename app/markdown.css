@@ -76,6 +76,7 @@
   }
   
   .prose p {
+    font-family: 'Oxygen';
     @apply my-4 text-neutral-800 dark:text-neutral-200;
   }
   
@@ -100,14 +101,17 @@
   }
   
   .prose strong {
+    font-family: 'Oxygen';
     @apply font-medium;
   }
   
   .prose ul {
+    font-family: 'Oxygen';
     @apply list-disc pl-6;
   }
   
   .prose ol {
+    font-family: 'Oxygen';
     @apply list-decimal pl-6;
   }
   
