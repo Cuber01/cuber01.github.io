@@ -5,7 +5,7 @@ function BlogCard(post) {
   return (
     <Link href={`/blog/${post.slug}`}>
                     <div className="blog-card" key={post.slug}>
-                            <p className='font-[Poppins]' >{post.metadata.title}</p>
+                            <p className='poppins' >{post.metadata.title}</p>
                             <small>
                               <p>{post.metadata.summary}</p>
                             </small>

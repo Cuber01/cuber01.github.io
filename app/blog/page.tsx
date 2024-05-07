@@ -1,5 +1,4 @@
 import { BlogPosts } from 'app/components/posts'
-import { useEffect } from 'react';
 
 
 export const metadata = {
@@ -9,7 +8,7 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-      <h1 className="font-[Poppins] font-semibold text-2xl mb-8 tracking-tighter">My Blog</h1>
+      <h1 className="poppins font-semibold text-2xl mb-8 tracking-tighter">My Blog</h1>
       <BlogPosts />
     </section>
   )

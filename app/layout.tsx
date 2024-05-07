@@ -5,6 +5,23 @@ import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { baseUrl } from './sitemap'
+import { Poppins } from 'next/font/google'
+import { Oxygen } from 'next/font/google'
+
+const oxygen = Oxygen({
+  weight: ['300', '400', '700'],
+  subsets: ['latin'],
+  variable: '--font-oxygen',
+  display: 'swap',
+})
+
+const poppins = Poppins({
+  weight: ['500',  '600'],
+  subsets: ['latin'],
+  variable: '--font-poppins',
+  display: 'swap',
+})
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -32,7 +49,7 @@ export const metadata: Metadata = {
   },
 }
 
-const cx = (...classes) => classes.filter(Boolean).join(' ')
+const cx = (...classes) => classes.join(' ')
 
 export default function RootLayout({
   children,
@@ -40,24 +57,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    
     <html
       lang="en"
-      className={cx(
-        'text-black bg-white dark:text-white dark:bg-black',
-      )}
+      className={`${poppins.variable} ${oxygen.variable}`}
     >
-      <link rel="preload" href="/fonts/oxygen-v15-latin-300.woff2" as="font" type="font/woff2"/>
-      <link rel="preload" href="/fonts/oxygen-v15-latin-300.ttf" as="font" type="font/ttf"/>
-      <link rel="preload" href="/fonts/oxygen-v15-latin-700.woff2" as="font" type="font/woff2"/>
-      <link rel="preload" href="/fonts/oxygen-v15-latin-700.ttf" as="font" type="font/ttf"/>
-      <link rel="preload" href="/fonts/oxygen-v15-latin-regular.woff2" as="font" type="font/woff2"/>
-      <link rel="preload" href="/fonts/oxygen-v15-latin-regular.ttf" as="font" type="font/ttf"/>
-      <link rel="preload" href="/fonts/poppins-v21-latin-500.woff2" as="font" type="font/woff2"/>
-      <link rel="preload" href="/fonts/poppins-v21-latin-500.tff" as="font" type="font/tff"/>
-      <link rel="preload" href="/fonts/poppins-v21-latin-600.woff2" as="font" type="font/woff2"/>
-      <link rel="preload" href="/fonts/poppins-v21-latin-600.ttf" as="font" type="font/tff"/>
 
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
+      <body className="oxygen antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
