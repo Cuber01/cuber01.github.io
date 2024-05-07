@@ -1,10 +1,11 @@
-[] email and rss subscription
 [] styling
 [x] projects component
 [] projects tags
 [x] projects display
 [] fix light mode
-[] info page
+[] make it look good on smaller devices
+[x] info page
 
 ? blog tags
 ? blog search
+? email and rss subscription
