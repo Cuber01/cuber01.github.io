@@ -1,22 +1,45 @@
 @import 'tailwindcss';
 
-:root {
-  --black: #070D0E;
-  --dark-gray: #44484B;
-  --light-gray: #54575A;
-  --white: #E9EEE7;
-  --purple: #BF1363;
-  --red: #D94A3E;
-  --blue: #00A6ED;
-  --yellow: #F2D091;
-  --pink: #C558AB;
-  --orange: #ecb00a;
-  --green: #0FE64C;
+/* Default */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #070D0E;
+    --text-color: #E9EEE7;
+    --select-color: #BF1363;
+    --dark-gray: #44484B;
+    --light-gray: #54575A;
+    --red: #D94A3E;
+    --blue: #00A6ED;
+    --yellow: #F2D091;
+    --pink: #C558AB;
+    --orange: #ecb00a;
+    --green: #0FE64C;
+  }
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #E9EEE7;
+    --text-color: #070D0E;
+    --select-color: #D94A3E;
+    --dark-gray: #9fa3a7;
+    --light-gray: #c3cbd3;
+    --red: #D94A3E;
+    --blue: #00A6ED;
+    --yellow: #F2D091;
+    --pink: #C558AB;
+    --orange: #ecb00a;
+    --green: #0edb48;
+  }
+}
+
+
+
+
+
 ::selection {
-  background-color: var(--purple);
-  color: var(--white);
+  background-color: var(--select-color);
+  color: var(--text-color);
 }
 
 @media (max-width: 600px) {

@@ -61,7 +61,7 @@ export default function RootLayout({
     
     <html
       lang="en"
-      className={`${poppins.variable} ${oxygen.variable} text-[var(--black)] bg-[var(--white)] dark:text-[var(--white)] dark:bg-[var(--black)]` }
+      className={`${poppins.variable} ${oxygen.variable} text-[var(--text-color)] bg-[var(--bg-color)]` }
     >
 
       <body className="oxygen antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
