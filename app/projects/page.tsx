@@ -1,5 +1,4 @@
 import { Projects } from 'app/components/projects'
-import './projects.css'
 
 export const metadata = {
   title: 'Projects'

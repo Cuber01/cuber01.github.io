@@ -1,6 +1,4 @@
 import { StarsBackground, Universe } from 'app/components/space'
-import './components/space.css'
-import './global.css'
 
 export default function Page() {
   return (

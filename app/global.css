@@ -1,8 +1,22 @@
 @import 'tailwindcss';
 
+:root {
+  --black: #070D0E;
+  --dark-gray: #44484B;
+  --light-gray: #54575A;
+  --white: #E9EEE7;
+  --purple: #BF1363;
+  --red: #D94A3E;
+  --blue: #00A6ED;
+  --yellow: #F2D091;
+  --pink: #C558AB;
+  --orange: #ecb00a;
+  --green: #0FE64C;
+}
+
 ::selection {
-  background-color: #47a3f3;
-  color: #fefefe;
+  background-color: var(--purple);
+  color: var(--white);
 }
 
 @media (max-width: 600px) {
@@ -52,19 +66,6 @@ table {
 
 .title {
   text-wrap: balance;
-}
-
-.blog-card {
-  margin: 0 0 1rem 0;
-  padding: 1rem;
-  text-align: left;
-  border-radius: 15px;
-  background-color: #272822;
-  transition: all 0.3s ease-in-out;
-}
-
-.blog-card:hover {
-  transform: scale(1.05);
 }
 
 .poppins {
