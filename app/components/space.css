@@ -1,7 +1,19 @@
+
+
 .universe{
     position: absolute;
     top: 25%;
     z-index: -1;
+}
+
+@media (max-width: 420px) {
+    #welcome {
+        top: 55%;
+    }
+    .universe {
+        top: 20%;
+        right: -13%;
+    }
 }
 
 .anim-reverse {

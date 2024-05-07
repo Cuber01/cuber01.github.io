@@ -6,13 +6,13 @@
 }
 
 @media (max-width: 600px) {
-  .element-to-hide {
+  .element-to-hide-1 {
     display: none;
   }
 }
 
 @media (max-height: 1000px) {
-  .element-to-hide {
+  .element-to-hide-1 {
     display: none;
   }
 }
@@ -73,4 +73,13 @@ table {
 
 .oxygen {
   font-family: var(--font-oxygen);
+}
+
+#welcome {
+  position: absolute;
+  left: 48%; /* relative to nearest positioned ancestor or body element */
+  top: 48%; /*  relative to nearest positioned ancestor or body element */
+  transform: translate(-50%, -50%); /* relative to element's height & width */
+  font-family: var(--font-poppins);
+  font-size: 2rem;
 }

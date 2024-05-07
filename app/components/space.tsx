@@ -13,7 +13,6 @@ export function StarsBackground() {
 export function Universe() {
    return (
       <div>
-         
          <div className="universe scale-[0.7] rotate-45">
             <svg className='orbital-ring-group' height="500" width="500">
                <circle className='ring' cx="250" cy="250" r="225" />
@@ -23,6 +22,8 @@ export function Universe() {
                <rect className=" stroke-[#ffffff] stroke-5" x="62" y="377" rx="0.10" ry="20" width="20" height="20" />
             </svg>
          </div>
+
+
 
          <div className="universe scale-[1.2]">
             <svg className='orbital-ring-group anim-reverse' height="500" width="500">
@@ -48,7 +49,7 @@ export function Universe() {
          </div>
 
 
-         <div className="universe element-to-hide scale-[1.8] rotate-90">
+         <div className="universe element-to-hide-1 scale-[1.8] rotate-90">
             <svg className='orbital-ring-group' height="500" width="500">
                <circle className='ring' cx="250" cy="250" r="225" />
                <rect x="50" y="360" width="50" height="50" />

@@ -1,6 +1,10 @@
-[] blog tags
 [] email and rss subscription
 [] styling
-[] projects component
+[x] projects component
 [] projects tags
-[] projects display
+[x] projects display
+[] fix light mode
+[] info page
+
+? blog tags
+? blog search

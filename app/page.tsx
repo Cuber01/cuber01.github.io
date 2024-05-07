@@ -1,16 +1,20 @@
 import { StarsBackground, Universe } from 'app/components/space'
 import './components/space.css'
+import './global.css'
 
 export default function Page() {
   return (
-      <div id="home-page">
+      <div>
         <StarsBackground />
         <Universe />
+        <div>
+        <div id="welcome"  >Jan Englert</div>
+        </div>
       </div>
     // <section>
     //   <h1 className="text-2xl font-semibold tracking-tighter">
     //     Jan Englert 
-    //   </h1>
+    //   </h1>                
     //   <h2 className="mb-8 text-base font-semibold tracking-tighter">
     //     @Cuber01
     //   </h2>
