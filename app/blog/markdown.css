@@ -60,7 +60,7 @@
 .prose blockquote {
   padding-left: 1.3rem;
   border-left: 4px solid var(--light-gray);
-  font-style: italic
+  font-style: italic;
 }
 
 .prose code {
@@ -84,6 +84,7 @@
 
 .prose p {
   font-family: var(--font-oxygen);
+
   @apply my-4 text-neutral-800 dark:text-neutral-200;
 }
 
