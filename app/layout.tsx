@@ -27,12 +27,12 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Jan Englert',
-    template: '%s | Jan Englert',
+    default: 'Jan Piotr Englert',
+    template: '%s | Jan Piotr Englert',
   },
   description: 'This is my portfolio.',
   openGraph: {
-    title: "Jan Englert's Portfolio",
+    title: "Jan P. Englert's Portfolio",
     url: baseUrl,
     locale: 'en_US',
     type: 'website',

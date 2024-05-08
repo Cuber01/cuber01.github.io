@@ -9,7 +9,7 @@ export default function Page() {
     return (
       <section>
         <h1 className="poppins text-2xl font-semibold tracking-tighter">
-         Jan Englert 
+         Jan Piotr Englert 
        </h1>                
        <h1 className="poppins mb-8 text-xl font-semibold tracking-tighter">
          <Link href="https://github.com/Cuber01">Github</Link>

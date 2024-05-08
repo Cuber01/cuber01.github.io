@@ -27,9 +27,9 @@ export async function GET() {
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
   <rss version="2.0">
     <channel>
-        <title>Jan Englert's Blog</title>
+        <title>Jan Piotr Englert's Blog</title>
         <link>${baseUrl}</link>
-        <description>This is Jan Englert's blog</description>
+        <description>This is Jan Piotr Englert's blog</description>
         ${itemsXml}
     </channel>
   </rss>`
