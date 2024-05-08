@@ -2,34 +2,37 @@
 
 export function StarsBackground() {
    return (
-   <div className='bg-animation'>
-      <div id='stars-1px'></div>
-      <div id='stars-2px'></div>
-      <div id='stars-3px'></div>
-   </div>
+      <div className='bg-animation'>
+         <div id='stars-1px'></div>
+         <div id='stars-2px'></div>
+         <div id='stars-3px'></div>
+      </div>
    )
 }
 
 export function Universe() {
    return (
       <div>
-         <div className="universe scale-[0.7] rotate-45">
-            <svg className='orbital-ring-group' height="500" width="500">
-               <circle className='ring' cx="250" cy="250" r="225" />
-               <rect className="fill-[var(--bg-color)]" x="50" y="360" width="50" height="50" />
-               <rect className="fill-[var(--bg-color)]" x="450" y="225" width="50" height="50" />
-               <circle className="stroke-[var(--pink)] fill-[var(--bg-color)] stroke-5" cx="475" cy="250" r="11" />
-               <rect className=" stroke-[var(--red)] fill-[var(--bg-color)] stroke-5" x="62" y="377" rx="0.10" ry="20" width="20" height="20" />
-            </svg>
+         <div id="smallest-universe" className="universe">
+            <div className="scale-[0.7] rotate-45">
+               <svg className='orbital-ring-group' height="500" width="500">
+                  <circle className='ring' cx="250" cy="250" r="225" />
+                  <rect className="fill-[var(--bg-color)]" x="50" y="360" width="50" height="50" />
+                  <rect className="fill-[var(--bg-color)]" x="450" y="225" width="50" height="50" />
+                  <circle className="stroke-[var(--pink)] fill-[var(--bg-color)] stroke-5" cx="475" cy="250" r="11" />
+                  <rect className=" stroke-[var(--red)] fill-[var(--bg-color)] stroke-5" x="62" y="377" rx="0.10" ry="20" width="20" height="20" />
+               </svg>
+            </div>
+            <div id="welcome"  >Jan Englert</div>
          </div>
 
 
 
-         <div className="universe scale-[1.2]">
+         <div className="universe element-to-hide-2 scale-[1.2]">
             <svg className='orbital-ring-group anim-reverse' height="500" width="500">
                <g>
                   <circle className="ring" cx="250" cy="250" r="225" />
-                  <rect className="fill-[var(--bg-color)]"  x="50" y="360" width="50" height="50" />
+                  <rect className="fill-[var(--bg-color)]" x="50" y="360" width="50" height="50" />
                   <rect className="fill-[var(--bg-color)]" x="450" y="225" width="50" height="50" />
                   <circle className="stroke-[var(--text-color)] fill-[var(--bg-color)] stroke-5" cx="475" cy="250" r="11" />
                </g>

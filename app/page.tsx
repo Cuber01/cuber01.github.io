@@ -5,9 +5,6 @@ export default function Page() {
       <div>
         <StarsBackground />
         <Universe />
-        <div>
-        <div id="welcome"  >Jan Englert</div>
-        </div>
       </div>
   )
 }

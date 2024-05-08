@@ -22,7 +22,7 @@
     --bg-color: #E9EEE7;
     --text-color: #070D0E;
     --select-color: #D94A3E;
-    --dark-gray: #9fa3a7;
+    --dark-gray: #aaafb4;
     --light-gray: #c3cbd3;
     --red: #D94A3E;
     --blue: #00A6ED;
@@ -33,24 +33,32 @@
   }
 }
 
-
-
-
-
 ::selection {
   background-color: var(--select-color);
   color: var(--text-color);
 }
 
-@media (max-width: 600px) {
+/* Small screen */
+@media (max-width: 620px), (max-height: 800px) {
   .element-to-hide-1 {
     display: none;
   }
 }
 
-@media (max-height: 1000px) {
-  .element-to-hide-1 {
+/* Mobile */
+@media (max-height: 600px), (max-width: 600px) {
+  .element-to-hide-2 {
     display: none;
+  }
+  #welcome {
+    top: 48% !important;
+  }
+  .universe {
+    top: 5% !important;
+  }
+
+  #first-universe {
+    background-color: rebeccapurple;
   }
 }
 
@@ -101,8 +109,8 @@ table {
 
 #welcome {
   position: absolute;
-  left: 48%; /* relative to nearest positioned ancestor or body element */
-  top: 48%; /*  relative to nearest positioned ancestor or body element */
+  left: 50%; /* relative to nearest positioned ancestor or body element */
+  top: 50%; /*  relative to nearest positioned ancestor or body element */
   transform: translate(-50%, -50%); /* relative to element's height & width */
   font-family: var(--font-poppins);
   font-size: 2rem;
