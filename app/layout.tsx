@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   description: 'This is my portfolio.',
   openGraph: {
-    title: "Jan P. Englert's Portfolio",
+    title: "Jan Piotr Englert's Portfolio",
     url: baseUrl,
     locale: 'en_US',
     type: 'website',
