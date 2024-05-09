@@ -3,8 +3,6 @@ import './blog/markdown.css'
 import './components/components.css'
 import type { Metadata } from 'next'
 import { Navbar } from './components/nav'
-import { Analytics } from '@vercel/analytics/react'
-import { SpeedInsights } from '@vercel/speed-insights/next'
 import { baseUrl } from './sitemap'
 import { Poppins } from 'next/font/google'
 import { Oxygen } from 'next/font/google'
@@ -68,8 +66,6 @@ export default function RootLayout({
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
-          <Analytics />
-          <SpeedInsights />
         </main>
       </body>
     </html>
