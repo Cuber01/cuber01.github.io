@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     default: 'Jan Piotr Englert',
     template: '%s | Jan Piotr Englert',
   },
-  description: 'This is my portfolio.',
+  description: 'This is my Website.',
   openGraph: {
-    title: "Jan Piotr Englert's Portfolio",
+    title: "Jan Piotr Englert's Website",
     url: baseUrl,
     locale: 'en_US',
     type: 'website',
