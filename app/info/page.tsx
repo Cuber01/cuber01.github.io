@@ -22,7 +22,7 @@ export default function Page() {
        <p className="mb-4">
          {`I'm a self-taught programmer with a knack for learning new things. 
          I have many interests including game and language design, writing, tabletop RPGs,
-          history and everything tech. My blog will likely focus on all these things, but currently I have written mostly things about sci-fi.`}
+          history and everything tech. My blog will likely focus on all these things.`}
        </p>
 
       </section>

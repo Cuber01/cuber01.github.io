@@ -56,6 +56,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Site RSS Feed">
     
     <html
       lang="en"
