@@ -56,14 +56,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <head>
-    	<link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Site RSS Feed">
-    </head>
-    
     <html
       lang="en"
       className={`${poppins.variable} ${oxygen.variable} text-[var(--text-color)] bg-[var(--bg-color)]` }
     >
+      <head>
+    	<link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Site RSS Feed">
+      </head>
 
       <body className="oxygen antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
