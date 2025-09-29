@@ -61,7 +61,7 @@ export default function RootLayout({
       className={`${poppins.variable} ${oxygen.variable} text-[var(--text-color)] bg-[var(--bg-color)]` }
     >
       <head>
-    	<link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Site RSS Feed">
+    	<link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Site RSS Feed"/>
       </head>
 
       <body className="oxygen antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
