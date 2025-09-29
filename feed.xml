@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Jan P. Englert's Blog</title>
+    <link>https://cuber01.github.io</link>
+    <description>Welcome to my blog</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Sep 2025 08:35:00 +0000</lastBuildDate>
+
+    <item>
+      <title>About Darkwood</title>
+      <link>https://cuber01.github.io/blog/darkwood</link>
+      <guid>https://cuber01.github.io/blog/darkwood</guid>
+      <pubDate>Sun, 7 Sep 2025 00:00:00 +0000</pubDate>
+      <description>A new take on the survival horror genre and why it is worth your time.</description>
+    </item>
+
+    <item>
+      <title>Running political intrigue in TTRPGs</title>
+      <link>https://cuber01.github.io/blog/intrigue</link>
+      <guid>https://cuber01.github.io/blog/intrigue</guid>
+      <pubDate>Wen, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <description>Guide on how to create and run an intrigue campaign.</description>
+    </item>
+
+    <item>
+      <title>About Megacorporations and Space Colonization in Sci-Fi</title>
+      <link>https://cuber01.github.io/blog/space-civilization</link>
+      <guid>https://cuber01.github.io/blog/space-civilization</guid>
+      <pubDate>Wen, 8 May 2024 00:00:00 +0000</pubDate>
+      <description>My thoughts on the idea of "civilizing" space by the human race with commentary mostly based on the Alien universe and The Invincible.</description>
+    </item>
+    
+    <item>
+      <title>The "accidentally racist" writing of Star Trek</title>
+      <link>https://cuber01.github.io/blog/star-trek</link>
+      <guid>https://cuber01.github.io/blog/star-trek</guid>
+      <pubDate>Tue, 9 Apr 2024 00:00:00 +0000</pubDate>
+      <description>A criticism on the portrayal of humanoid aliens in Star Trek</description>
+    </item>
+
+  </channel>
+</rss>
