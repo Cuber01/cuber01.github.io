@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { BlogPosts } from 'app/components/posts'
 
 
